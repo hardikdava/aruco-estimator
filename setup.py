@@ -24,7 +24,7 @@ setuptools.setup(
     author='Lukas Meyer',
     author_email='lukas.meyer@fau.de',
     url="https://github.com/meyerls/aruco-estimator",
-    packages=['aruco_estimator'],
+    packages=find_packages(),
     install_requires=["numpy",
                       #"colmap_wrapper==1.1.5",
                       "matplotlib",
